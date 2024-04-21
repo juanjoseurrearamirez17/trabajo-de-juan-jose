@@ -1,0 +1,158 @@
+{
+	margin: auto;
+	padding: auto;
+}
+body{
+	text-align: center;
+	width: 1300px;
+	height: 2500px;
+	background-image: url(14.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	font-family: cursive;
+	color: white;
+}
+a{
+	margin: 0 100px;
+	padding: 5px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	width: 100px;
+	color: black;
+	justify-content: right;
+	flex: 5 ;
+}
+nav ul{
+	list-style: none;
+	display: flex;
+	
+}
+nav ul li{
+	margin: 0;
+}
+.img img{
+	box-shadow: 0px 20px 20px skyblue;
+	margin-left: 200px;
+	float: left;
+	width: 300px;
+	height: 200px;
+	border-radius: 50px;
+}
+.imagen:hover{
+	transform: scale(1.0);
+}
+.ka img{
+	box-shadow: 0px 20px 20px greenyellow;
+	margin-right: 200px;
+	float: right;
+    width: 300px;
+	height: 200px;
+	border-radius: 50px;
+}
+.rio{
+	background-color: greenyellow;
+}
+.container h1{
+	margin-top: 400px;
+	color: blueviolet;
+	font-family: cursive;
+}
+.o img{
+	box-shadow: 0px 20px 20px blue;
+	margin-top: 100px;
+	margin-left: 200px;
+	float: left;
+	width: 300px;
+	height: 200px;
+	border-radius: 50px;
+}
+.as img{
+	box-shadow: 0px 20px 20px darkred;
+	margin-top: 100px;
+	margin-right: 200px;
+	float: right;
+    width: 300px;
+	height: 200px;
+	border-radius: 50px;
+}
+.pen img{
+	box-shadow: 0px 20px 20px palegreen;
+	margin-top: 100px;
+	margin-right: 200px;
+	float: right;
+    width: 300px;
+	height: 200px;
+	border-radius: 50px;
+}
+.c img{
+	box-shadow: 0px 20px 20px orangered;
+	margin-top: 100px;
+	margin-right: 300px;
+	float: right;
+    width: 300px;
+	height: 200px;
+	border-radius: 50px;
+}
+.peo img{
+	box-shadow: 0px 20px 20px white;
+	margin-top: 100px;
+	margin-right: 600px;
+    width: 300px;
+	height: 200px;
+	border-radius: 50px;
+}
+.cil img{
+	box-shadow: 0px 20px 20px green;
+	margin-right: 200px;
+	float: right;
+	margin-top: -200px;
+    width: 300px;
+	height: 200px;
+	border-radius: 50px;
+}
+.ce{
+	margin-top: 370px;
+	color: black;
+	margin-left: 900px;
+}
+/*media queries*/
+
+@media (max-width: 400px){
+	.rio ul{
+		text-align: center;
+		flex-direction: column;
+	}
+	nav{
+		margin-right: 500px;
+		float: left;
+	}
+	h1{
+		color: aqua;
+		margin-right: 500px;
+		float: left	;
+	}
+	.img{
+		margin-right: 500px;
+		float: left;
+	}
+	.o img{
+		margin-right: 500px;
+		float: left;
+	}
+	.pen img{
+		margin-left: 200px;
+		margin-right: 500px;
+		float: left;
+	}
+	.peo img{
+		margin-left: 200px;
+		margin-right: 500px;
+		float: left;
+	}
+  .container{
+  	width: 1000px;
+  	height: 2200px;
+  }

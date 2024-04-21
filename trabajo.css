@@ -1,0 +1,68 @@
+{
+	margin: auto;
+	padding: auto;
+}
+body{
+	background-image: url(mortal-kombat-gif.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.transision{
+	width: 1200px;
+	height: 400px;
+	background-color: rgba(210, 210, 210, 0.5);
+	margin-top: 150px;
+	margin-left: 48px;
+}
+a{
+	margin: 0 100px;
+	padding: 5px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	width: 100px;
+	color: white;
+	justify-content: right;
+	flex: 5 ;
+}
+nav ul{
+	list-style: none;
+	display: flex;
+}
+nav ul li{
+	margin: 0;
+}
+.uno a{
+	width: 200px;
+	height: 20px;
+	background-color: blue;
+}
+.transision img{
+	width: 500px;
+	height: 250px;
+	margin-left: 360px;
+	border-radius: 200px;
+}
+.m img{
+	box-shadow: 20px 20px 20px #92E996;
+}
+/*media queries*/
+
+@media (max-width: 400px){
+	.uno ul{
+		margin-top: 10px;
+		flex-direction: column;
+	}
+	.transision{
+		text-align: center;
+		width: 400px;
+		height: 400px;
+	}
+	.m img{
+		text-align: center;
+		float: right;
+		width: 200px;
+		height: 150px;
+		margin-bottom: 100%;
+	}
+}

@@ -1,0 +1,131 @@
+{
+	margin: auto;
+	padding: auto;
+}
+.container{
+	text-align: center;
+	width: 1300px;
+	height: 2150px;
+	background-color: skyblue;
+	background-image: url("3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	font-family: cursive;
+}
+a{
+	margin: 0 100px;
+	padding: 5px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	width: 100px;
+	color: black;
+	justify-content: right;
+	flex: 5 ;
+}
+nav ul{
+	list-style: none;
+	display: flex;
+}
+nav ul li{
+	margin: 0;
+}
+.gam img{
+	margin-top: 50px;
+	width: 400px;
+	height: 300px;
+	border-radius: 100%;
+}
+.container a{
+	background-color: greenyellow;
+}
+h1{
+	text-align: center;
+}
+.holaaaa{
+  display: flex;
+}
+.holaaaa{
+	border: solid 1px black;
+	margin-top: 70px;
+	background-color: rgba(0, 0, 0, 0.4);;
+	width: 400px;
+	height: 110px;
+	color: black;
+	display: flex;
+}
+.holaaaa p{
+	margin-left: 30px;
+}
+.h{
+	border: solid 1px black;
+	margin-top: 20px;
+	margin-left: 400px;
+	background-color: rgba(250, 165, 0, 0.53);
+	width: 400px;
+	height: 140px;
+}
+.lala{
+	margin-top: 20px;
+	border: solid 1px black;
+	margin-left: 800px;
+	background-color: rgba(30, 150, 0, 0.5);
+	width: 400px;
+	height: 160px;
+}
+.mmm{
+  display: flex;
+}
+.mmm{
+	border: solid 1px black;
+	margin-top: 70px;
+	background-color: rgba(290, 120, 0, 0.38);
+	width: 400px;
+	height: 110px;
+	color: black;
+	display: flex;
+}
+.mmm p{
+	margin-left: 30px;
+}
+.sos{
+	margin-top: 20px;
+	border: solid 1px black;
+	margin-left: 300px;
+	background-color: rgba(150, 18, 0, 0.29);
+	width: 400px;
+	height: 160px;
+}
+.sis{
+	margin-top: 20px;
+	border: solid 1px black;
+	margin-left: 600px;
+	background-color: rgba(0, 0, 125, 0.5);
+	width: 400px;
+	height: 160px;
+}
+.kol{
+	margin-top: 20px;
+	border: solid 1px black;
+	margin-left: 900px;
+	background-color: rgba(138, 221, 45, 0.8);
+	width: 400px;
+	height: 200px;
+}
+.a{
+	border: solid 1px black;
+	float: left;
+	width: 400px;
+	height: 160px;
+	background-color: rgba(998, 221, 45, 0.5);
+}
+.pa{
+	margin-top: 10px;
+	border: solid 1px black;
+	float: right;
+	width: 400px;
+	height: 140px;
+	background-color: rgba(250, 0, 0, 0.30);
+}
