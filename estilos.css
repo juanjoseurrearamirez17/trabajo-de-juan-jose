@@ -37,7 +37,7 @@ h1{
 #inicio{
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url(../img/0.jpg);
+	background-image: url("0.jpg");
 	height: 200vh;
 	background-attachment: fixed;
 }
@@ -73,7 +73,7 @@ marquee{
 
 
 #acerca-de{
-	background-image: url(../img/borde.jpg);
+	background-image: url("borde.jpg");
 	height: 200vh;
 	background-size: cover;
 	background-attachment: fixed;
@@ -188,7 +188,7 @@ nav ul li{
 	text-align: center;
 	width: 1300px;
 	height: 1700px;
-	background-image: url(../img/dos.jpg);
+	background-image: url("dos.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	border-radius: 10px;
@@ -273,7 +273,7 @@ nav ul li{
 
 
 #contacto{
-	background-image: url(../img/una.jpg);
+	background-image: url("una.jpg");
 	height: 200vh;
 	background-attachment: fixed;
 }
